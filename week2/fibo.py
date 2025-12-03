@@ -5,7 +5,7 @@ def fibo(n):
         return 0
     elif n==2:
         return 1
-    return fibo(n-1)+fibo(n-2)
+    return fibo(n-1)+fibo(n-2) #returning the fibonacci number
 
 def fibo_series(n):
     if n<=0:

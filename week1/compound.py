@@ -1,5 +1,5 @@
 def calculate_compound_interest(principal, rate, time, n):
-    amount = principal * (1 + rate / (100 * n)) ** (n * time)
+    amount = principal * (1 + rate / (100 * n)) ** (n * time)  #formula of CI
     return round(amount, 2)
 
 
