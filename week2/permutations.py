@@ -1,7 +1,6 @@
 def generate_permutations(s):
     if len(s) == 1:
         return [s]
-
     perms = []
     for i in range(len(s)):
         # Take each character as the first character

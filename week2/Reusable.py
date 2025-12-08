@@ -9,3 +9,4 @@ def cube(num):
 
 print("Square of 4:", square(4))
 print("Cube of 3:", cube(3))
+
